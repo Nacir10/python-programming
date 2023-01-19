@@ -1,0 +1,23 @@
+# Banner
+print("Welcome to rollercoaster checker")
+height = float(input("What it is your height? "))
+bill = 0  # The bill variable will store total amount to be paid by user
+
+if (height >= 120):
+    age = int(input("What is your age? "))
+    if (age < 12):
+        bill = 5
+        print("Child tickets are $5")
+    elif(age < 18):
+        bill = 7
+        print("Youth ticktes are $7")
+    else:
+        bill = 12
+        print("Adult tickets are $12")
+    take_photo = input("Do you want a photo for extra $3 <Yes/No>!!! ")
+    if (take_photo == "Yes"):
+        bill += 3
+
+    print(f"Your total bill is ${bill}")
+else:
+    print("Can't ride, you have to grow taller.")
