@@ -1,1 +1,172 @@
-<mxfile host="app.diagrams.net" modified="2023-01-22T06:22:45.832Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.5" etag="uoXAXUbvoLetDeduVCpt" type="github"><diagram id="LBGnoauNi3bQ_uk5rQJf">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-22T06:45:26.916Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.5" etag="6WKqwrjviGZJwH0PIH-W" type="github">
+  <diagram id="bEeBog_iCscqxg92eO_M" name="Page-1">
+    <mxGraphModel dx="1221" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9l5PSi5Jq7SDq6ccpWL0-1" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="375" y="30" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9l5PSi5Jq7SDq6ccpWL0-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="87" as="sourcePoint" />
+            <mxPoint x="425" y="157" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9l5PSi5Jq7SDq6ccpWL0-5" value="Welcome to Treasure Island.&lt;br&gt;Your mission is to find the treasure." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="157" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9l5PSi5Jq7SDq6ccpWL0-6" value="Left or rigth?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="370" y="277" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9l5PSi5Jq7SDq6ccpWL0-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9l5PSi5Jq7SDq6ccpWL0-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="297" as="sourcePoint" />
+            <mxPoint x="420" y="277" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9l5PSi5Jq7SDq6ccpWL0-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9l5PSi5Jq7SDq6ccpWL0-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="337" as="sourcePoint" />
+            <mxPoint x="580" y="327" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9l5PSi5Jq7SDq6ccpWL0-9" value="Right or anything else" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="475" y="287" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9l5PSi5Jq7SDq6ccpWL0-10" value="Fail into a hole.&lt;br&gt;Game Over." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="297" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9l5PSi5Jq7SDq6ccpWL0-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9l5PSi5Jq7SDq6ccpWL0-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="467" as="sourcePoint" />
+            <mxPoint x="420" y="437" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9l5PSi5Jq7SDq6ccpWL0-13" value="Left" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="382" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9l5PSi5Jq7SDq6ccpWL0-14" value="swim or wait" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="370" y="437" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9l5PSi5Jq7SDq6ccpWL0-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9l5PSi5Jq7SDq6ccpWL0-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="487" as="sourcePoint" />
+            <mxPoint x="600" y="487" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9l5PSi5Jq7SDq6ccpWL0-16" value="Swim or anything else" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="457" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9l5PSi5Jq7SDq6ccpWL0-17" value="Attacked by trout.&lt;br&gt;Game Over." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="457" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9l5PSi5Jq7SDq6ccpWL0-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9l5PSi5Jq7SDq6ccpWL0-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="547" as="sourcePoint" />
+            <mxPoint x="420" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9l5PSi5Jq7SDq6ccpWL0-20" value="Wait" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="550" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9l5PSi5Jq7SDq6ccpWL0-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9l5PSi5Jq7SDq6ccpWL0-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="670" as="sourcePoint" />
+            <mxPoint x="590" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9l5PSi5Jq7SDq6ccpWL0-25" value="Blue" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="620" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9l5PSi5Jq7SDq6ccpWL0-26" value="Eaten by beasts.&lt;br&gt;Game Over." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9l5PSi5Jq7SDq6ccpWL0-22" value="Which door?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="370" y="600" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9l5PSi5Jq7SDq6ccpWL0-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9l5PSi5Jq7SDq6ccpWL0-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="670" as="sourcePoint" />
+            <mxPoint x="420" y="760" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9l5PSi5Jq7SDq6ccpWL0-30" value="Yellow" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="715" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9l5PSi5Jq7SDq6ccpWL0-31" value="You win!" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9l5PSi5Jq7SDq6ccpWL0-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.886;exitY=0.629;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9l5PSi5Jq7SDq6ccpWL0-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="670" as="sourcePoint" />
+            <mxPoint x="600" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="720" />
+              <mxPoint x="600" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9l5PSi5Jq7SDq6ccpWL0-33" value="Anything else" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="715" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9l5PSi5Jq7SDq6ccpWL0-34" value="Game Over." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9l5PSi5Jq7SDq6ccpWL0-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9l5PSi5Jq7SDq6ccpWL0-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="670" as="sourcePoint" />
+            <mxPoint x="280" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9l5PSi5Jq7SDq6ccpWL0-36" value="Burned on fire.&lt;br&gt;Game Over." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9l5PSi5Jq7SDq6ccpWL0-37" value="Red" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="620" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9l5PSi5Jq7SDq6ccpWL0-39" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="370" y="930" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9l5PSi5Jq7SDq6ccpWL0-40" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="395" y="700" width="50" height="405" as="geometry" />
+        </mxCell>
+        <mxCell id="9l5PSi5Jq7SDq6ccpWL0-41" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9l5PSi5Jq7SDq6ccpWL0-40" target="9l5PSi5Jq7SDq6ccpWL0-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="810" as="sourcePoint" />
+            <mxPoint x="220" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9l5PSi5Jq7SDq6ccpWL0-42" value="" style="endArrow=none;html=1;rounded=0;entryX=0.681;entryY=1.056;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9l5PSi5Jq7SDq6ccpWL0-40" target="9l5PSi5Jq7SDq6ccpWL0-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="880" as="sourcePoint" />
+            <mxPoint x="450" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9l5PSi5Jq7SDq6ccpWL0-43" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.368;entryY=0.498;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9l5PSi5Jq7SDq6ccpWL0-31" target="9l5PSi5Jq7SDq6ccpWL0-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="810" as="sourcePoint" />
+            <mxPoint x="450" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9l5PSi5Jq7SDq6ccpWL0-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9l5PSi5Jq7SDq6ccpWL0-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="710" as="sourcePoint" />
+            <mxPoint x="620" y="880" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="760" y="327" />
+              <mxPoint x="760" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9l5PSi5Jq7SDq6ccpWL0-45" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9l5PSi5Jq7SDq6ccpWL0-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="510" as="sourcePoint" />
+            <mxPoint x="760" y="487" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
